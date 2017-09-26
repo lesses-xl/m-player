@@ -17,8 +17,8 @@
 					<div class="music-plan">
 					</div>
 					<div class="music-drag" v-on:mousedown.stop='planDrag'></div>
-					<div class="music-time">- <span class="time-all" ref='alltime'>00:00</span>
-					</div>
+				</div>
+				<div class="music-time">- <span class="time-all" ref='alltime'>00:00</span>
 				</div>
 			</div>
 		</div>
@@ -127,7 +127,7 @@
 				let that = this;
 				this.$refs.audio.addEventListener('canplaythrough',function() {
 					that.timeActive();
-					this.$refs.audio.volume = 0.8;
+					that.$refs.audio.volume = 0.8;
 				})
 			},
 			//时间进度

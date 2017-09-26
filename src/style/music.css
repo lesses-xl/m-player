@@ -9,6 +9,7 @@
 		top:0;
 		z-index: 999;
 		box-shadow: 0 0 10px #ccc;
+		font-family: KaiTi;
 	}
 
 	.music .m-play {
@@ -74,13 +75,13 @@
 	.music-name {
 		font-size: 16px;
 		text-align: left;
-		top: 13px;
+		top: 10px;
 		left: 28px;
 		line-height: 30px;
 		height: 30px;
 		width: 210px;
 		color: black;
-		font-family: 'KaiTi';
+		font-family: KaiTi;
 		position: absolute;
 		-webkit-user-select: none; /* Chrome/Safari/Opera */
 		-moz-user-select: none; /* Firefox */
@@ -90,14 +91,14 @@
 		width: 20px;
 		height: 20px;
 		position: absolute;
-		top: 18px;
+		top: 15px;
 		left: 5px;
 	}
 
 	.music-time {
 		position: absolute;
-		bottom: -8px;
-		right: -48px;
+		bottom: 3px;
+		right: 5px;
 		z-index: 100;
 		color: black;
 	}
